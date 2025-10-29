@@ -1,3 +1,7 @@
+# rsthemes 0.5.1
+
+- Use `is_hms()` in place of the deprecated `is.hms()`.
+
 # rsthemes 0.5.0
 
 - New theme(s) [Rosé Pine](https://rosepinetheme.com/) (@eric-hunt #102)

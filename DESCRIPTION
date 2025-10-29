@@ -1,6 +1,6 @@
 Package: rsthemes
 Title: Full Themes for RStudio v1.2+
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: c(
     person("Garrick", "Aden-Buie", , "garrick@adenbuie.com", role = c("aut", "cre")),
     person("Eric", "Hunt", , "52219938+eric-hunt@users.noreply.github.com", role = "ctb",
@@ -15,7 +15,7 @@ BugReports: https://github.com/gadenbuie/rsthemes/issues
 Imports:
     cli,
     fs (>= 1.3.0),
-    hms,
+    hms (>= 0.5.0),
     purrr,
     rstudioapi (>= 0.9.0),
     sass (>= 0.2.1),

@@ -284,7 +284,9 @@ choose_theme <- function(dark, now = hms::as_hms(Sys.time())) {
 }
 
 parse_hm <- function(x) {
-  if (hms::is.hms(x)) return(x)
+  if (hms::is_hms(x)) {
+    return(x)
+  }
   if (is.character(x)) {
     x <- hms::parse_hm(x)
     if (is.na(x)) {
